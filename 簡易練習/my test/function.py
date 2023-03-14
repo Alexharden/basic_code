@@ -1,7 +1,7 @@
-# def sayhi():
-#     print("hello user")
-#     print("haha")
-# sayhi()
+def sayhi():
+    print("hello user")
+    print("haha")
+sayhi()
 
 # def say_hi(name, age):
 #     print("hello " + name + ", you are " + age)
@@ -13,7 +13,7 @@
 # say_hi("carry", 41)
 # say_hi("harden", 36)
 
-def cube(num):
-    return  num*num*num
+# def cube(num):
+#     return  num*num*num
     
-print(cube(3))
+# print(cube(3))
