@@ -32,7 +32,7 @@ while play_again == "是":
             if int(user_answer[i]) == system_answer[i]: #輸入數字是str 用int轉成數字
             #檢查輸入數字是不是跟隨機生成的數字在相同位置有相同數字
                 a += 1
-            elif int(user_answer[i]) in syst    em_answer: #輸入數字是str 用int轉成數字
+            elif int(user_answer[i]) in system_answer: #輸入數字是str 用int轉成數字
             #檢查輸入的數字有沒有在隨機生成的數字內有相同但位置不同的的答案
                 b += 1
         if a == 4:
