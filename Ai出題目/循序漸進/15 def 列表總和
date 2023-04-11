@@ -1,0 +1,18 @@
+def sum_lis(num_str):
+    num_list = list(map(int, num_str.split()))  # 將字串轉換成整數
+    return sum(num_list)
+
+user_num = input("請輸入一堆數字: ")
+print("列表總和為: ", sum_lis(user_num))
+
+
+
+
+#解法
+def sum_lis(num):
+    return sum(num)
+
+user_num = input("請輸入一堆數字: ")
+user_lis = list(map(int, user_num.split()))
+
+print("列表總和為: ", sum_lis(user_lis))

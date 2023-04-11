@@ -1,0 +1,16 @@
+def low_words(words):
+    newwords = words.lower()
+    return newwords
+
+user_input = input("請輸入要一串英文來轉換成小寫: ")
+result = low_words(user_input)
+print(result)
+
+
+#另一個寫法
+def low_words(words):
+    return words.lower()
+
+user_input = input("請輸入一串英文來轉換成小寫：")
+result = low_words(user_input)
+print(result)
