@@ -1,3 +1,4 @@
+#https://ithelp.ithome.com.tw/articles/10242602
 import random
 answer =  random.randint(1, 100)
 user_answer = 0
