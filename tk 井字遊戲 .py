@@ -8,14 +8,14 @@ def get_user_input():
         messagebox.showerror('錯誤', '請輸入有效的名稱')
     else:
         messagebox.showinfo('歡迎', f'歡迎, {user_name}!')
-        window.withdraw()
-        open_game_window(user_name)
+        window.withdraw() #隱藏主視窗
+        open_game_window(user_name) #開啟遊戲
 
 def open_game_window(user_name):
     # 創建新窗口
-    game_window = tk.Tk()
-    game_window.title('井字遊戲')
-    game_window.geometry('1080x1080')
+    game_window = tk.Tk() #新建一個視窗
+    game_window.title('井字遊戲') #標題
+    game_window.geometry('1080x1080') #視窗大小
 
     # 初始化井字遊戲狀態
     game_state = [[' ']*3 for _ in range(3)]
